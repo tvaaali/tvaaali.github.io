@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>bant.io - Sign in</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="/css/compiled/theme.css">
+
+	<!-- javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="/js/bootstrap/bootstrap.min.js"></script>
+	<script src="/js/theme.js"></script>
+	<script src="/account/js/pack.js"></script>
+
+</head>
+
+<body id="signup">
+
+	</section> <!-- .content -->
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="ISO-8859-1" />
+	<link rel="stylesheet" type="text/css" href="/account/css/pack.css">
+	<script src="/account/js/pack.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-reset.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/helper.css" rel="stylesheet">
+
+
+
+
+
+
+</head>
+<body>
+
+	</section> <!-- .content -->
+
+</body>
+</html>
+

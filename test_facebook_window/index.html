@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+    <!-- Begin Keptify Code -->
+    <script type='text/javascript'>
+    (function() {
+        var s = document.createElement('script'); s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//app.keptify.com/56e2752980b1e?rrr';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    <!-- End Keptify Code -->
+
+<p>Click the button to reveal the code</p>
+
+<button onclick="myFunction()">Try it</button>
+<div id="code" style="display:none" >Your code is: XXTTRR</div>
+<script>
+//myWindow = new window;
+setTimeout(function(){
+    window.focus()
+    //alert('fdfdf');
+    console.log('fdfdf');
+
+
+},5000)
+var mm;
+function myFunction() {
+    //mm = window.open("child.html", "MsgWindow", "width=200,height=100");
+    //  mm = window.open("https://www.facebook.com/sharer/sharer.php?u=playground.keptify.com?facebook=1&rrr=5643436", "MsgWindow", "width=200,height=100");
+     mm = window.open("https://www.facebook.com/sharer/sharer.php?u=http://opencart1.5.exportfeed.com/index.php?route=product/product&product_id=49", "MsgWindow", "width=200,height=100");
+     face_window();
+    //mm = window.open("testing.html", "TEEEEEEESTING", "width=200,height=100");
+    //mm = window.open("http://neoart.ro", "MsgWindow","width=200,height=100");
+    //myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
+}
+function face_window() {
+ if(mm.closed == true){
+   _keptify$('#code').show();
+   //alert('facebook window is closed !')
+ }else{
+   setTimeout(function(){
+     face_window();
+   },500)
+ }
+
+
+}
+
+var hidden, visibilityState, visibilityChange;
+
+if (typeof document.hidden !== "undefined") {
+  hidden = "hidden", visibilityChange = "visibilitychange", visibilityState = "visibilityState";
+} else if (typeof document.msHidden !== "undefined") {
+  hidden = "msHidden", visibilityChange = "msvisibilitychange", visibilityState = "msVisibilityState";
+}
+
+var document_hidden = document[hidden];
+
+document.addEventListener(visibilityChange, function() {
+  console.log("hgfsadfhds===========")
+  if(document_hidden != document[hidden]) {
+    if(document[hidden]) {
+      // Document hidden
+    } else {
+      // Document shown
+    }
+
+    document_hidden = document[hidden];
+  }
+});
+
+</script>
+
+</body>
+</html>
