@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
 }
 
 
-  function includeHTML() {
+  (function includeHTML() {
     var z, i, elmnt, file, xhttp;
     z = document.getElementsByTagName("*");
     for (i = 0; i < z.length; i++) {
@@ -34,4 +34,4 @@ if ('serviceWorker' in navigator) {
         return;
       }
     }
-  }
+  })();
