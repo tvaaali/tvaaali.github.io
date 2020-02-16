@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
- $("#zcontent").load("/product/tshirt.html");
+ $("#zcontent").load("/included.html");
   // (function includeHTML() {
   //   var z, i, elmnt, file, xhttp;
   //   z = document.getElementsByTagName("*");
